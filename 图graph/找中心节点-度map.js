@@ -19,4 +19,6 @@ var findCenter = function(edges) {
         }
     }
 };
+
+console.log('有边：[1,2],[5,1],[1,3],[1,4]');
 console.log('中心节点为：', findCenter([[1,2],[5,1],[1,3],[1,4]]));
